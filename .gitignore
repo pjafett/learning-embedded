@@ -1,0 +1,44 @@
+# ---- Build output ----
+build/
+Debug/
+Release/
+
+# Object and dependency files
+*.o
+*.obj
+*.d
+*.su
+*.a
+
+# Firmware images and linker output
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.out
+
+# ---- CMake (if you use it) ----
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# ---- clangd / LSP ----
+.cache/
+compile_commands.json
+
+# ---- Debugging ----
+.gdb_history
+*.log
+
+# ---- Neovim / Vim ----
+*.swp
+*.swo
+*~
+Session.vim
+.netrwhist
+
+# ---- Linux ----
+.directory
+.Trash-*
+.nfs*
